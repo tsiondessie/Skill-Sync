@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skill Sync</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo">
+          <img
+            src="images /Remove Background Image.png"
+            alt="Skill Sync Logo"
+          />
+        </a>
+        <!-- <a href="/" id="navbar__logo"><strong>Skill Sync</strong></a> -->
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Tech</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/tech.html" class="navbar__links">About Us</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="register.html" class="button">Register</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="about" class="main-content">
+      <h1>Welcome to Skill Sync</h1>
+      <p>
+        Skill Sync is a platform that connects mentees with experienced mentors
+        based on career interests, goals, and skills.
+      </p>
+      <p>
+        Find the right mentor to guide you in your journey, or become a mentor
+        and help others succeed!
+      </p>
+      <a href="register.html" class="button">Get Started</a>
+    </section>
+    <section class="search-container">
+      <h2>Find a Mentor</h2>
+      <div class="search-box">
+        <input
+          type="text"
+          id="searchBar"
+          placeholder="Search for a mentor by name, skills, or career..."
+        />
+        <button class="button" onclick="searchMentors()">Search</button>
+      </div>
+    </section>
+
+    <section class="feature-section">
+      <div class="feature-box">
+        <h3>Career Resources</h3>
+        <p>Resume writing, interview tips, and job application guidance.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Webinars & Workshops</h3>
+        <p>Join sessions to enhance your skills and knowledge.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Impactful Stories</h3>
+        <p>Read success stories and experiences from others.</p>
+      </div>
+    </section>
+
+    <section class="form-container">
+      <h2>Register as Mentor or Mentee</h2>
+    
+
+    <script src="app.js"></script>
+  </body>
+</html>
