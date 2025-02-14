@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skill Sync - Register</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="images /Remove Background Image.png" alt="Skill Sync Logo" />
+      </a>
+    </div>
+
+    <section class="form-container">
+      <h2>Register as Mentor or Mentee</h2>
+      <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="role">Are you a Mentor or Mentee?</label>
+        <select id="role">
+          <option value="mentor">Mentor</option>
+          <option value="mentee">Mentee</option>
+        </select>
+
+        <label for="career">Career Interest:</label>
+        <input type="text" id="career" required />
+
+        <label for="skills">Skills (comma-separated):</label>
+        <input type="text" id="skills" required />
+
+        <label for="goals">Goals:</label>
+        <textarea id="goals" required></textarea>
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
